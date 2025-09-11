@@ -13,7 +13,7 @@ Actualmente se encuentra en una **versión temprana en desarrollo**, realizada u
 
 ---
 
-## 🛠 Próximas mejoras
+##  Próximas mejoras
 - Ampliación del contenido con más información sobre tipos y mecanismos de relojes.  
 - Implementación de un diseño más atractivo y responsivo.  
 - Organización del proyecto en diferentes secciones (Inicio, Historia, Galería, Contacto).  
