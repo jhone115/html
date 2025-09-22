@@ -7,10 +7,14 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f4f8;
-            color: #333;
+            background: #121920;
+            color: white;
             line-height: 1.6;
             padding: 20px;
+        }
+        .logo{
+            width: 160px;
+            height: auto;
         }
         header {
             display: flex;
@@ -35,7 +39,7 @@
             color: black;
         }
         main, section {
-            background: white;
+            background: #121920;
             border-radius: 8px;
             padding: 20px 25px;
             margin-bottom: 20px;
