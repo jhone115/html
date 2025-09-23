@@ -1,4 +1,4 @@
-# Página Web sobre Relojes 
+# Página web wiki the binding of isaac
 
 Este proyecto consiste en una página web simple dedicada a los relojes, sus funciones y características.  
 Actualmente se encuentra en una **versión temprana en desarrollo**, realizada utilizando **HTML** y **CSS**.  
