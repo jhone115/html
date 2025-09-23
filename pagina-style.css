@@ -4,7 +4,38 @@
             box-sizing: border-box;
         }
 
-        
+        .mynav {
+        background: #121920;
+        }
+
+        .mynav-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: white ;
+        }
+
+        .mynav-nav .nav-link {
+        color: #84ccff ;
+        transition: color 0.3s, transform 0.3s;
+        }
+
+        .mynav-nav .nav-link:hover {
+        color: #ffffff ;
+        transform: scale(1.05);
+        }
+
+        .dropdown-menu {
+        background: #1c2530;
+        }
+        .dropdown-item {
+        color: #84ccff;
+        }
+        .dropdown-item:hover {
+        background: #2a3442;
+        color: white;
+        }
+
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #121920;
