@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-    
-    <head>
+<head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>the isaac of wiki</title>
-        <link rel="icon" type="image/png" href="favicon.png">
+        <title></title>
+        <link rel="icon" type="image/png" href="../favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="pagina-style.css">
+        <link rel="stylesheet" href="../pagina-style.css">
     </head>
-    
-    <body>
-        <img src="isaac-specialist-logo (1).gif" alt="logo" class="logo">
+
+<body>
+
+    <img src="../isaac-specialist-logo (1).gif" alt="logo" class="logo">
         <nav class="navbar navbar-expand-lg mynav">
             <div class="container-fluid">
-                <a class="navbar-brand mynav-brand disabled">home</a>
+                <a class="navbar-brand mynav-brand" href="../ejercicio3.html">home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse mynav-nav" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link" href="personajes/personajes.html">personajes</a>
+                    <a class="nav-link" href="personajes.html">personajes</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -49,7 +49,7 @@
                     </li>
 
                     <li class="nav-item">
-                    <a class="nav-link" href="pisos/pisos.html">pisos</a>
+                    <a class="nav-link" href="../pisos/pisos.html">pisos</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -66,7 +66,6 @@
                     </ul>
                     </li>
                 </ul>
-
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -74,39 +73,17 @@
                 </div>
             </div>
         </nav>
-        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
         <div class="wrapper">
             <div class="texto">
-                <main id="Inicio">
-                    <h1><b>The Isaac Of Wiki</b></h1>
-                    <p>The Binding of Isaac es un videojuego independiente creado por Edmund McMillen y Florian Himsl, lanzado originalmente en 2011. Es un roguelike de acción y exploración con vista cenital, inspirado en clásicos como The Legend of Zelda, pero con mecánicas modernas basadas en generación procedural y permadeath (muerte permanente).</p>
-                    <p>El juego sigue la historia de Isaac, un niño que huye al sótano de su casa después de que su madre, convencida de que debe sacrificarlo por mandato divino, intenta matarlo. En ese descenso, Isaac se enfrenta a hordas de monstruos, jefes grotescos y símbolos religiosos oscuros, todo mientras adquiere objetos que modifican sus habilidades, apariencia y poderes.</p>
-                    <p>Cada partida es única: las habitaciones, enemigos, objetos y jefes se generan aleatoriamente. Esto convierte al juego en una experiencia impredecible donde la suerte y la estrategia se combinan. Con cientos de objetos, sinergias casi infinitas y múltiples finales, The Binding of Isaac ha ganado fama por su dificultad, rejugabilidad y su trasfondo simbólico que mezcla humor negro con referencias bíblicas.</p>
-                    <p>Con el tiempo ha recibido varias expansiones y versiones mejoradas, siendo la más completa The Binding of Isaac: Repentance (2021), que añade nuevo contenido, personajes, jefes, finales y profundiza aún más en su mundo.</p>
-                </main>
-        </div>
-        <div class="imagen">
-            <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-11-dec-2024-04-03-pm-5313.jpg" alt="The Binding Of Isaac 2011" width="280">
-            <p>The Binding Of Isaac (TBOI) 2011</p>
-        </div>       
-        </div>
-        <div class="texto">
-            <h2 style="text-align: center;"><b>RULETA DE PERSONAJES</b></h2>
-            <div class="wrapper">
-                <div class="imagen">
-                
-                </div>
-                <div class="imagen">
-                
-                </div>
-                <div class="imagen">
-                
-                </div>
+                <h1 id="nombre"></h1>
+                <p id="descripcionlarga"></p>
             </div>
-            
-        </div>
+            <div class="imagen">
+                <img id="imagen" alt="personaje" width="95">
+                <p id="descripcioncorta"></p>
+            </div> 
+        </div>   
+    <script src="personaje.js"></script>   
     </body>
-
 </html>
