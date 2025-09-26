@@ -16,12 +16,12 @@ const data = {
         suerte: 0.00,         
         descripcioncorta: "El personaje inicial y más equilibrado.",
         consumibles:[{tipo:"bomba", cantidad:1}],
-        objetos:"d6",
+        objetos:"collectibles_105_dice",
         descripcionlarga: `Isaac es el primer personaje jugable y el más básico de todos. Empieza con 3 corazones rojos y sin ítems pasivos. 
         Su diseño está pensado para ser un punto medio en todas las estadísticas, sin ventajas ni desventajas destacables. 
         Es ideal para principiantes, ya que no tiene mecánicas complejas.<br>Isaac empieza con tres contenedores de Corazón Rojo y una 
         <img src="../objetos/consumibles/bomba.png" width="20">Bomba. 
-        También empezará con el <img src="../objetos/activas/d6.png" width="20">D6 una vez desbloqueado 
+        También empezará con el <img src="../objetos/activas/collectibles_105_dice.png" width="20">D6 una vez desbloqueado 
         (tras derrotar a <img src="../jefes/jefesimg/isaac boss.png" width="25"> Isaac como <img src="personajesimagenes/blue baby.png" width="20"> ???).`
     },
     "tainted-isaac": {
@@ -81,7 +81,7 @@ if (p) {
         </tr>
         <tr>
         <td> ${objetos}</td>
-        <td><img src="../objetos/activas/${p.objetos}.png" width="20">${p.objetos}</td>
+        <td><img src="../objetos/activas/${p.objetos}.png" width="20"></td>
         </tr>
     </table>`;
     document.getElementById("descripcionlarga").innerHTML = p.descripcionlarga;

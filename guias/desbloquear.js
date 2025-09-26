@@ -5,7 +5,7 @@ const data = {
     //desbloqueables
     "isaac's head":{
         nombre:"isaac's head",
-        imagen:"",
+        imagen:`<img src="../objetos/trinkets/trinket_054_isaacshead.png" width="20">`,
         desbloquearcon:"isaac",
         descripcioncorta:"dead friend",
         metododesbloquear:`completar <img src="../pisos/pisosimagenes/boss rush.png" width="25"> boss rush con <img src="../personajes/personajesimagenes/isaac.png" width="25"> isaac`,
