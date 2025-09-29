@@ -4,12 +4,22 @@
             box-sizing: border-box;
         }
         
+        .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        }
+        .contenedor img {
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        }
 
         #descripcioncorta table {
         border-collapse: collapse;
         width: 100%;
         font-size: 10px;
-    }
+        }
 
         #descripcioncorta td {
             font-size: 16px; 
@@ -182,4 +192,23 @@
         footer a {
             display: inline-block;
             margin: 6px 10px;
+        }
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #3b241b;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        }
+        th, td {
+        border: 1px solid #2a1a13;
+        padding: 6px;
+        text-align: center;
+        }
+        th {
+        background: #2a1a13;
+        font-weight: bold;
+        }
+        tr:nth-child(even) {
+        background: #4a2e21;
         }

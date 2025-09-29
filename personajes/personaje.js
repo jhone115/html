@@ -21,12 +21,12 @@ const data = {
         Su diseño está pensado para ser un punto medio en todas las estadísticas, sin ventajas ni desventajas destacables. 
         Es ideal para principiantes, ya que no tiene mecánicas complejas.<br>Isaac empieza con tres contenedores de Corazón Rojo y una 
         <img src="../objetos/consumibles/bomba.png" width="20">Bomba. 
-        También empezará con el <img src="../objetos/activas/collectibles_105_dice.png" width="20">D6 una vez desbloqueado 
+        También empezará con el <img src="../objetos/objetosimg/collectibles_105_dice.png" width="20">D6 una vez desbloqueado 
         (tras derrotar a <img src="../jefes/jefesimg/isaac boss.png" width="25"> Isaac como <img src="personajesimagenes/blue baby.png" width="20"> ???).`
     },
-    "tainted-isaac": {
+    "Tainted isaac": {
         nombre: "Tainted Isaac",
-        imagen: "personajesimagenes/tainted-isaac.png",
+        imagen: "personajesimagenes/t isaac.png",
         vida: [
             {tipo: "rojo", cantidad: 3}
         ],
@@ -36,7 +36,9 @@ const data = {
         rango: 6.50,
         velocidad: 1.00,
         suerte: 0,
-        descripcioncorta: "La versión corrompida de Isaac.<br>Limitado en la cantidad de objetos que puede cargar.",
+        consumibles:[{tipo:"bomba", cantidad:1}],
+        objetos:"",
+        descripcioncorta: "La versión corrompida de Isaac.",
         descripcionlarga: "Tainted Isaac solo puede llevar hasta 8 ítems pasivos a la vez. Cada vez que recoge uno nuevo, debe reemplazar uno de los anteriores. Esta mecánica lo hace muy flexible y estratégico, pero también arriesgado, ya que el jugador debe decidir constantemente qué conservar y qué descartar."
     }
     // ... más personajes
@@ -81,7 +83,7 @@ if (p) {
         </tr>
         <tr>
         <td> ${objetos}</td>
-        <td><img src="../objetos/activas/${p.objetos}.png" width="20"></td>
+        <td><img src="../objetos/objetosimg/${p.objetos}.png" width="20"></td>
         </tr>
     </table>`;
     document.getElementById("descripcionlarga").innerHTML = p.descripcionlarga;
