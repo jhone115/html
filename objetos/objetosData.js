@@ -749,11 +749,15 @@ const objetos = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,
 // Datos de descripciones y otros detalles
 const detallesObjetos = {
   "thesadonion": {
-    nombre: "The Sad Onion",
-    descripcion: "Aumenta tus stats de manera ridícula.",
-    tipo: "Pasivo",
-    efecto: "+0.7 Tears Up",
-    unlock: "Disponible desde el inicio"
+  nombre: "The Sad Onion",
+  descripcion: "Aumenta la cadencia de disparo, permitiendo lanzar lágrimas más rápido.",
+  tipo: "Pasivo",
+  efecto: "Tears Up",
+  stats: [
+    { tipo: "lagrimas", cambio: "+0.7" }
+  ],
+  pools: ["Treasure Room", "Crane game"],
+  unlock: "Disponible desde el inicio"
   },
   "theinnereye": {
     nombre: "The Inner Eye",

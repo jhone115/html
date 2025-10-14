@@ -1,4 +1,4 @@
-const tabla = document.getElementById("tabla-objetos");
+const tabla = document.getElementById("contenedor-detalle");
 
 objetos.forEach(num => {
   const key = nombres[num]; // ej. "thesadonion"

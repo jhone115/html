@@ -26,6 +26,61 @@
             padding: 10px; 
         }
 
+        .detalle-objeto {
+        display: flex;
+        justify-content: flex-end;   
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        gap: 40px;              
+        }
+
+        .descripcion {
+        flex: 1;                 
+        max-width: 50%;
+        }
+
+        .tabla-stats {
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-collapse: collapse;
+        border: 1px solid #333;
+        text-align: center;
+        margin-left: auto;           
+        }
+
+
+        .tabla-stats td {
+        padding: 8px;
+        border-bottom: 1px solid #444;
+        color: #fff;
+        }
+
+        .icono-stat,
+        .icono-pool {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 4px;
+        }
+
+        .panel-descripcion {
+        flex: 1;
+        max-width: 500px;
+        text-align: left;
+        color: #0000cc;
+        }
+
+        .panel-descripcion h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        }
+
+        .panel-descripcion p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
 
         .wrapper{
         background: #ffffff35;
