@@ -17,12 +17,15 @@ const data = {
         descripcioncorta: "El personaje inicial y más equilibrado.",
         consumibles:[{tipo:"bomba", cantidad:1}],
         objetos:"collectibles_105_dice",
-        descripcionlarga: `Isaac es el primer personaje jugable y el más básico de todos. Empieza con 3 corazones rojos y sin ítems pasivos. 
-        Su diseño está pensado para ser un punto medio en todas las estadísticas, sin ventajas ni desventajas destacables. 
-        Es ideal para principiantes, ya que no tiene mecánicas complejas.<br>Isaac empieza con tres contenedores de Corazón Rojo y una 
+        descripcionlarga: `Isaac es el corazón y alma del juego, el niño inocente cuya trágica huida al sótano da inicio a toda la aventura.
+        Como personaje de juego, es el estándar perfecto para cualquier jugador:<br> 
+        comienza con tres corazones rojos y estadísticas completamente equilibradas en daño, velocidad y alcance, sin ventajas ni desventajas inherentes.
+        Es ideal para principiantes, ya que no tiene mecánicas complejas.Isaac empieza con tres contenedores de Corazón Rojo y una 
         <img src="../objetos/consumibles/bomba.png" width="20">Bomba. 
-        También empezará con el <img src="../objetos/objetosimg/collectibles_105_dice.png" width="20">D6 una vez desbloqueado 
-        (tras derrotar a <img src="../jefes/jefesimg/isaac boss.png" width="25"> Isaac como <img src="personajesimagenes/blue baby.png" width="20"> ???).`
+         Su verdadero potencial se despliega al desbloquear el <img src="../objetos/objetosimg/collectibles_105_dice.png" width="20">D6
+        (tras derrotar a <img src="../jefes/jefesimg/isaac boss.png" width="25"> Isaac como <img src="personajesimagenes/blue baby.png" width="20"> ???).
+        un objeto que le permite rerrodar los ítems de las salas de objeto. Esta capacidad transforma a Isaac de un simple recipiente vacío en el personaje 
+        más versátil y estratégico, capaz de moldear su suerte y crear construcciones poderosas a su antojo, reflejando su rol central en la narrativa.`
     },
     "Tainted isaac": {
         nombre: "Tainted Isaac",
@@ -39,57 +42,203 @@ const data = {
         consumibles:[{tipo:"bomba", cantidad:1}],
         objetos:"",
         descripcioncorta: "La versión corrompida de Isaac.",
-        descripcionlarga: "Tainted Isaac solo puede llevar hasta 8 ítems pasivos a la vez. Cada vez que recoge uno nuevo, debe reemplazar uno de los anteriores. Esta mecánica lo hace muy flexible y estratégico, pero también arriesgado, ya que el jugador debe decidir constantemente qué conservar y qué descartar."
+        descripcionlarga: `Tainted Isaac solo puede llevar hasta 8 ítems pasivos a la vez. Cada vez que recoge uno nuevo, debe reemplazar 
+        uno de los anteriores. Esta mecánica lo hace muy flexible y estratégico, 
+        pero también arriesgado, ya que el jugador debe decidir constantemente qué conservar y qué descartar.`
+    },
+    "maggy": {
+        nombre: "magdalene",
+        imagen: "personajesimagenes/magdalene.png",
+        vida: [
+            {tipo: "rojo", cantidad: 4} 
+        ],
+        daño: 3.50,          
+        lagrimas: 2.73,       
+        vellagrimas: 1.00,  
+        rango: 6.50,         
+        velocidad: 0.85,    
+        suerte: 0.00,         
+        descripcioncorta: "el tanque lento.",
+        consumibles:[{tipo:"pill", cantidad:1}],
+        objetos:"collectibles_45_yumheart",
+        descripcionlarga: `Magdalena es el personaje designado para la supervivencia y la resistencia.Con un corazón rojo adicional 
+        y su objeto inicial, <img src="../objetos/objetosimg/collectibles_45_yumheart.png" width="20"> Yum Heart, que cura un corazón al usarlo, 
+        está preparada para aguantar más golpes que cualquier otro personaje inicial.<br>
+        Esta durabilidad la convierte en la elección ideal para los principiantes que aún están aprendiendo a esquivar los patrones de ataques enemigos.
+        sin embargo, esta ventaja tiene un costo: <br> su velocidad ligeramente reducida puede hacer que las habitaciones grandes y los jefes rápidos sean un desafío,
+        enseñando al jugador que la mera capacidad de absorber daño no es suficiente sin una movilidad inteligente.<br>
+        Al completar el challenge <u>April fool</u> saldra con una pastilla<img src="../objetos/consumibles/pill.png" width="20"> que te cura completamente la vida`
+    },
+    "Tainted maggy": {
+        nombre: "Tainted maggy",
+        imagen: "personajesimagenes/t magdalene.png",
+        vida: [
+            {tipo: "rojo", cantidad: 2},{tipo: "vacio", cantidad: 2}
+        ],
+        daño: 2.62,
+        lagrimas: 2.73,
+        vellagrimas: 1.00,
+        rango: 6.50,
+        velocidad: 1.00,
+        suerte: 0,
+        consumibles:[],
+        objetos:"collectibles_45_yumheart",
+        descripcioncorta: "La versión corrompida de maggy.",
+        descripcionlarga: `Tainted Magdalene es una sanguinaria que comercia vida por muerte. Su mecánica principal es que puede atacar con lágrimas pero también a melee,
+        si te acercas mucho a un enemigo perderás un poco de vida a cambio de hacerle bastante daño. Ella convierte su inmensa reserva de salud en un arsenal ofensivo, 
+        creando un ciclo constante de autoconsumo y explosión de poder. 
+        Jugarla es un balance agresivo entre arriesgar tu preciada salud para inflingir daño cuerpo a cuerpo que no se recupera.
+        <br>Si derrotas a un enemigo con las lágrimas tendrás una posibilidad de que te de medio corazón rojo y si lo derrotas a melee siempre te dara medio corazón rojo.
+        su objeto inicial, <img src="../objetos/objetosimg/collectibles_45_yumheart.png" width="20"> Yum Heart`
+    },
+    "cain": {
+        nombre: "cain",
+        imagen: "personajesimagenes/cain.png",
+        vida: [
+            {tipo: "rojo", cantidad: 2} 
+        ],
+        daño: 4.20,          
+        lagrimas: 2.73,       
+        vellagrimas: 1.00,  
+        rango: 4.50,         
+        velocidad: 1.30,    
+        suerte: 1.00,         
+        descripcioncorta: "el tuerto con suerte.",
+        consumibles:[{tipo:"key", cantidad:1}],
+        objetos:"",
+        descripcionlarga: `Cain es el afortunado aventurero, un personaje que demuestra que la suerte puede ser una estadística tan tangible como el daño. 
+        Su Pata Derecha de la Suerte<img src="../objetos/objetosimg/collectibles_46_luckyfoot.png" width="20"> no solo aumenta hiddenmente su suerte, 
+        sino que garantiza recompensas positivas de las máquinas tragaperras y 
+        saca solo píldoras positivas o neutrales al tomarlas. <br>Combinado con un multiplicador de daño fijo y mayor velocidad, es un personaje ofensivo 
+        y consistente. La única peculiaridad es su ojo vendado, que hace que su lágrima izquierda se dispare desde una posición fija, 
+        un pequeño precio a pagar por sus notables ventajas en el campo de batalla.<br>
+        también puedes desbloquear donando 68 monedas en <u><img src="../pisos/pisosimagenes/greed.jpeg" height="20">Greed</u> el trinket Paper Clip<img src="../objetos/trinkets/trinket_019_paperclip.png" width="20"> que te permite abrir cofres dorados sin usar llaves.`
+    },
+    "Tainted cain": {
+        nombre: "Tainted cain",
+        imagen: "personajesimagenes/t cain.png",
+        vida: [
+            {tipo: "rojo", cantidad: 2}
+        ],
+        daño: 4.20,          
+        lagrimas: 2.73,       
+        vellagrimas: 1.00,  
+        rango: 6.50,         
+        velocidad: 1.30,    
+        suerte: 0.00,  
+        consumibles:[{tipo:"key", cantidad:1}],
+        objetos:"collectibles_710_bagofcrafting",
+        descripcioncorta: "La versión corrompida de cain.",
+        descripcionlarga: `Tainted Cain es el artesano metódico. No puede recoger objetos de las salas normales. En su lugar, debe recolectar 8 materiales
+         que dejan los enemigos y usar su Bolsa de Fabricación<img src="../objetos/objetosimg/collectibles_710_bagofcrafting.png" width="20"> para crear un objeto.
+          Los objetos que fabrica dependen de la calidad y tipo de los materiales 
+         utilizados, siguiendo recetas fijas. Su juego se convierte en una búsqueda de planificación y recolección, donde el conocimiento de las recetas es poder.
+          Es un personaje lento y deliberado que recompensa la paciencia y el conocimiento profundo de la mecánica del juego`
+    },
+    "judas": {
+        nombre: "judas",
+        imagen: "personajesimagenes/judas.png",
+        vida: [
+            {tipo: "rojo", cantidad: 1} 
+        ],
+        daño: 4.72,          
+        lagrimas: 2.73,       
+        vellagrimas: 1.00,  
+        rango: 6.50,         
+        velocidad: 1.00,    
+        suerte: 0.00,         
+        descripcioncorta: "el cañon de cristal.",
+        consumibles:[{tipo:"penny", cantidad:3}],
+        objetos:"collectibles_34_thebookofbelial",
+        descripcionlarga: `Judas personifica la filosofía de "alto riesgo, alta recompensa". Es increíblemente frágil, comenzando con un solo corazón rojo, 
+        pero a cambio posee el multiplicador de daño más alto de los personajes base. Su poder se centra en el 
+        Libro de Belial<img src="../objetos/objetosimg/collectibles_34_thebookofbelial.png" width="20">, que al activarlo le otorga
+         un enorme aumento de daño para la habitación actual, permitiéndole eliminar enemigos y jefes con una velocidad aterradora. Jugarlo es un ejercicio 
+         de precisión y agresividad controlada; un solo error puede ser fatal, pero una ejecución perfecta es recompensada con una de las partidas más rápidas
+          y contundentes posibles.`
+    },
+    "Tainted judas": {
+        nombre: "Tainted judas",
+        imagen: "personajesimagenes/t judas.png",
+        vida: [
+            {tipo: "negro", cantidad: 2}
+        ],
+        daño: 3.50,
+        lagrimas: 2.73,
+        vellagrimas: 1.00,
+        rango: 4.50,
+        velocidad: 1.23,
+        suerte: 0,
+        consumibles:[{tipo:"penny", cantidad:3}],
+        objetos:"collectibles_705_darkarts",
+        descripcioncorta: "La versión corrompida de judas.",
+        descripcionlarga: `Tainted Judas es el asesino espectral. Es frágil, pero su objeto Dark Arts<img src="../objetos/objetosimg/collectibles_705_darkarts.png" width="20">
+         lo redefine por completo. Al activarlo, se convierte en una sombra invencible que se teletransporta a través de los enemigos, 
+         dañándolos y dejando un rastro de lágrimas espectrales.
+         Al final del dash, realiza un poderoso ataque basado en el daño infligido. Su juego es un baile de alta movilidad, usando Dark Arts<img src="../objetos/objetosimg/collectibles_705_darkarts.png" width="20">
+          para esquivar proyectiles, 
+         posicionarse perfectamente y ejecutar ráfagas de daño devastadoras, haciendo de la evasión proactiva su mejor defensa y ofensiva.<br>
+         usar Dark Arts<img src="../objetos/objetosimg/collectibles_705_darkarts.png" width="20"> para pasar sin recibir daño por una 
+         sala cursed<img src="../objetos/pools/cursed pool.png" width="20"> (simplemente la activas y te diriges a la puesta de la habitación). Esto también puede ser útil si tienes que pasar entre fuegos o pinchos.`
     }
     // ... más personajes
 };
+function initializePersonajePage() {
+    const params = new URLSearchParams(window.location.search);
+    const personaje = params.get("id");
 
-const p = data[personaje];
-if (p) {
-    let corazones = "";
-    p.vida.forEach(obj => {
-        for (let i = 0; i < obj.cantidad; i++) {
-            corazones += `<img src="../objetos/consumibles/corazon ${obj.tipo}.png" width="20">`;
+    if (personaje && window.location.pathname.includes('personaje.html')) {
+        const p = data[personaje];
+        if (p) {
+            let corazones = "";
+            p.vida.forEach(obj => {
+                for (let i = 0; i < obj.cantidad; i++) {
+                    corazones += `<img src="../objetos/consumibles/corazon ${obj.tipo}.png" width="20">`;
+                }
+            });
+            let objetos = "";
+            p.consumibles.forEach(obje => {
+                objetos += `<img src="../objetos/consumibles/${obje.tipo}.png" width="20"> ${obje.cantidad} `;
+            });
+
+            document.getElementById("nombre").textContent = p.nombre;
+            document.getElementById("imagen").src = p.imagen;
+            document.getElementById("descripcioncorta").innerHTML = `
+            <table>
+                <tr><td colspan="2">${p.descripcioncorta}</td></tr>
+                <tr><td colspan="2">stats</td></tr>
+                <tr>
+                    <td><img src="../objetos/consumibles/corazon vacio.png" width="20"> Vida<br> ${corazones}</td>
+                    <td><img src="../personajes/statsimg/daño.png" width="20"> Daño <br>${p.daño}</td>
+                </tr>
+                <tr>
+                    <td><img src="../personajes/statsimg/lagrimas.png" width="20"> Lágrimas <br>${p.lagrimas}</td>
+                    <td><img src="../personajes/statsimg/vel lagrima.png" width="20"> Vel. Lágrimas <br>${p.vellagrimas}</td>
+                </tr>
+                <tr>
+                    <td><img src="../personajes/statsimg/rango.png" width="20"> Rango <br>${p.rango}</td>
+                    <td><img src="../personajes/statsimg/velocidad.png" width="20"> Velocidad<br>${p.velocidad}</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><img src="../personajes/statsimg/suerte.png" width="20"> Suerte ${p.suerte}</td>
+                </tr>
+                <tr>
+                <td colspan="2">items iniciales</td>
+                </tr>
+                <tr>
+                <td> ${objetos}</td>
+                <td><img src="../objetos/objetosimg/${p.objetos}.png" width="20"></td>
+                </tr>
+            </table>`;
+            document.getElementById("descripcionlarga").innerHTML = p.descripcionlarga;
+
+            document.title = `${p.nombre} | The Isaac Wiki`;
+        } else {
+            document.body.innerHTML = "<h1>Personaje no encontrado</h1>";
+            document.title = "Personaje no encontrado";
         }
-    });
-    let objetos = "";
-    p.consumibles.forEach(obje => {
-        objetos += `<img src="../objetos/consumibles/${obje.tipo}.png" width="20"> ${obje.cantidad} `;
-    });
-
-    document.getElementById("nombre").textContent = p.nombre;
-    document.getElementById("imagen").src = p.imagen;
-    document.getElementById("descripcioncorta").innerHTML = `
-    <table>
-        <tr><td colspan="2">${p.descripcioncorta}</td></tr>
-        <tr><td colspan="2">stats</td></tr>
-        <tr>
-            <td><img src="../objetos/consumibles/corazon vacio.png" width="20"> Vida<br> ${corazones}</td>
-            <td><img src="../personajes/statsimg/daño.png" width="20"> Daño <br>${p.daño}</td>
-        </tr>
-        <tr>
-            <td><img src="../personajes/statsimg/lagrimas.png" width="20"> Lágrimas <br>${p.lagrimas}</td>
-            <td><img src="../personajes/statsimg/vel lagrima.png" width="20"> Vel. Lágrimas <br>${p.vellagrimas}</td>
-        </tr>
-        <tr>
-            <td><img src="../personajes/statsimg/rango.png" width="20"> Rango <br>${p.rango}</td>
-            <td><img src="../personajes/statsimg/velocidad.png" width="20"> Velocidad<br>${p.velocidad}</td>
-        </tr>
-        <tr>
-            <td colspan="2"><img src="../personajes/statsimg/suerte.png" width="20"> Suerte ${p.suerte}</td>
-        </tr>
-        <tr>
-        <td colspan="2">items iniciales</td>
-        </tr>
-        <tr>
-        <td> ${objetos}</td>
-        <td><img src="../objetos/objetosimg/${p.objetos}.png" width="20"></td>
-        </tr>
-    </table>`;
-    document.getElementById("descripcionlarga").innerHTML = p.descripcionlarga;
-
-    document.title = `${p.nombre} | The Isaac Wiki`;
-} else {
-    document.body.innerHTML = "<h1>Personaje no encontrado</h1>";
-    document.title = "Personaje no encontrado";
+    }
 }
+
+// Inicializar cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', initializePersonajePage);

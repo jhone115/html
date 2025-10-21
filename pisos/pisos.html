@@ -31,19 +31,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" 
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        objetos
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="objetos.html#activas">activas</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">pasivas</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">trinkets</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">usables</a></li>
-                    </ul>
+                    <a class="nav-link dropdown-toggle" href="#" role="button">objetos</a>
                     </li>
 
                     <li class="nav-item">
@@ -69,10 +57,10 @@
                     </li>
                 </ul>
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+                                <form class="d-flex" role="search" id="search-form">
+    <input class="form-control me-2" type="search" placeholder="Buscar pisos, personajes, objetos..." aria-label="Search" id="search-input"/>
+    <button class="btn btn-outline-success" type="submit">Buscar</button>
+</form>
                 </div>
             </div>
         </nav>
@@ -88,20 +76,76 @@
     
     <h2> Tipos de pisos principales:</h2>
     <ul>
-        <li><b><img src="../pisos/pisosimagenes/basement.jpeg" height="35">Basement / <img src="../pisos/pisosimagenes/cellar.jpeg" height="35">Cellar / <img src="../pisos/pisosimagenes/burningbasement.jpeg" height="35">Burning Basement (Sótano):</b> Los primeros niveles del juego. Enemigos simples y ambiente doméstico o infernal. Sirven como introducción a las mecánicas.</li>
-        <li><b><img src="../pisos/pisosimagenes/caves.jpeg" height="35">Caves / <img src="../pisos/pisosimagenes/catacombs.jpeg" height="35">Catacombs / <img src="../pisos/pisosimagenes/floadedcaves.jpeg" height="35">Flooded Caves (Cuevas):</b> Segundo conjunto de pisos. Más enemigos voladores y peligros ambientales (rocas, pinchos, etc.).</li>
-        <li><b><img src="../pisos/pisosimagenes/depths.jpeg" height="35">Depths / <img src="../pisos/pisosimagenes/necropolois.jpeg" height="35">Necropolis / <img src="../pisos/pisosimagenes/dankdepths.jpeg" height="35">Dank Depths (Profundidades):</b> Tercer conjunto. Introduce enemigos más agresivos y el jefe “Mom” (la madre de Isaac).</li>
-        <li><b><img src="../pisos/pisosimagenes/womb.jpeg" height="35">Womb  / <img src="../pisos/pisosimagenes/scarredwomb.jpeg" height="35">Scarred Womb (Útero):</b> El interior del cuerpo de la madre. Aquí los enemigos causan corazones completos de daño. Se pelea contra <i>Mom’s Heart</i> o <i>It Lives</i>.</li>
-        <li><b><img src="../pisos/pisosimagenes/sheol.jpeg" height="35">Sheol / <img src="../pisos/pisosimagenes/cathedral.jpeg" height="35">Cathedral:</b> Pisos finales alternativos desbloqueables. 
+        <li><b>
+          <a href="#" class="piso-link" data-piso="basement">
+            <img src="pisosimagenes/basement.jpeg" height="35">Basement
+          </a> / 
+          <a href="#" class="piso-link" data-piso="cellar">
+            <img src="pisosimagenes/cellar.jpeg" height="35">Cellar
+          </a> / 
+          <a href="#" class="piso-link" data-piso="burningbasement">
+            <img src="pisosimagenes/burningbasement.jpeg" height="35">Burning Basement
+          </a>
+        </b> (Sótano): Los primeros niveles del juego. Enemigos simples y ambiente doméstico o infernal. Sirven como introducción a las mecánicas.</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="caves">
+            <img src="pisosimagenes/caves.jpeg" height="35">Caves
+          </a> / 
+          <a href="#" class="piso-link" data-piso="catacombs">
+            <img src="pisosimagenes/catacombs.jpeg" height="35">Catacombs
+          </a> / 
+          <a href="#" class="piso-link" data-piso="floadedcaves">
+            <img src="pisosimagenes/floadedcaves.jpeg" height="35">Flooded Caves
+          </a>
+        </b> (Cuevas): Segundo conjunto de pisos. Más enemigos voladores y peligros ambientales (rocas, pinchos, etc.).</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="depths">
+            <img src="pisosimagenes/depths.jpeg" height="35">Depths
+          </a> / 
+          <a href="#" class="piso-link" data-piso="necropolois">
+            <img src="pisosimagenes/necropolois.jpeg" height="35">Necropolis
+          </a> / 
+          <a href="#" class="piso-link" data-piso="dankdepths">
+            <img src="pisosimagenes/dankdepths.jpeg" height="35">Dank Depths
+          </a>
+        </b> (Profundidades): Tercer conjunto. Introduce enemigos más agresivos y el jefe "Mom" (la madre de Isaac).</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="womb">
+            <img src="pisosimagenes/womb.jpeg" height="35">Womb
+          </a> / 
+          <a href="#" class="piso-link" data-piso="scarredwomb">
+            <img src="pisosimagenes/scarredwomb.jpeg" height="35">Scarred Womb
+          </a>
+        </b> (Útero): El interior del cuerpo de la madre. Aquí los enemigos causan corazones completos de daño. Se pelea contra <i>Mom's Heart</i> o <i>It Lives</i>.</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="sheol">
+            <img src="pisosimagenes/sheol.jpeg" height="35">Sheol
+          </a> / 
+          <a href="#" class="piso-link" data-piso="cathedral">
+            <img src="pisosimagenes/cathedral.jpeg" height="35">Cathedral
+          </a>
+        </b>: Pisos finales alternativos desbloqueables. 
             <ul>
                 <li><b>Sheol:</b> Enfrentas a Satanás.</li>
                 <li><b>Cathedral:</b> Enfrentas a Isaac.</li>
             </ul>
         </li>
-        <li><b><img src="../pisos/pisosimagenes/chest.jpeg" height="35">The Chest / <img src="../pisos/pisosimagenes/darkroom.jpeg" height="35">The Dark Room:</b> Pisos de final “verdadero”.
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="chest">
+            <img src="pisosimagenes/chest.jpeg" height="35">The Chest
+          </a> / 
+          <a href="#" class="piso-link" data-piso="darkroom">
+            <img src="pisosimagenes/darkroom.jpeg" height="35">The Dark Room
+          </a>
+        </b>: Pisos de final "verdadero".
             <ul>
-                <li><b><img src="../pisos/pisosimagenes/chest.jpeg" height="35">The Chest:</b> Se pelea contra <i>Blue Baby (???)</i>.</li>
-                <li><b><img src="../pisos/pisosimagenes/darkroom.jpeg" height="35">The Dark Room:</b> Contra <i>The Lamb</i>.</li>
+                <li><b>The Chest:</b> Se pelea contra <i>Blue Baby (???)</i>.</li>
+                <li><b>The Dark Room:</b> Contra <i>The Lamb</i>.</li>
             </ul>
         </li>
     </ul>
@@ -116,9 +160,41 @@
 <div class="texto">
     <h2> Pisos especiales (según expansiones):</h2>
     <ul>
-        <li><b><img src="../pisos/pisosimagenes/void.jpeg" height="35">The Void:</b> Piso final donde se enfrenta a <i>Delirium</i>.</li>
-        <li><b><img src="../pisos/pisosimagenes/corpse.jpeg" height="35">Corpse:</b> Introducido en <i>Repentance</i>, con un ambiente grotesco y el jefe <i>Mother</i>.</li>
-        <li><b><img src="../pisos/pisosimagenes/mausoleum.jpeg" height="35">Mausoleum / <img src="../pisos/pisosimagenes/gehenna.jpeg" height="35">Gehenna, <img src="../pisos/pisosimagenes/Downpour.jpeg" height="35">Downpour / <img src="../pisos/pisosimagenes/dross.jpeg" height="35">Dross, <img src="../pisos/pisosimagenes/ashpit.jpeg" height="35">Ashpit / <img src="../pisos/pisosimagenes/mines.jpeg" height="35">Mines, <img src="../pisos/pisosimagenes/home.jpeg" height="35">home.:</b> Rutas alternativas (ruta “alt”) que llevan a finales distintos y nuevos jefes.</li>
+        <li><b>
+          <a href="#" class="piso-link" data-piso="void">
+            <img src="pisosimagenes/void.jpeg" height="35">The Void
+          </a>
+        </b>: Piso final donde se enfrenta a <i>Delirium</i>.</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="corpse">
+            <img src="pisosimagenes/corpse.jpeg" height="35">Corpse
+          </a>
+        </b>: Introducido en <i>Repentance</i>, con un ambiente grotesco y el jefe <i>Mother</i>.</li>
+        
+        <li><b>
+          <a href="#" class="piso-link" data-piso="mausoleum">
+            <img src="pisosimagenes/mausoleum.jpeg" height="35">Mausoleum
+          </a> / 
+          <a href="#" class="piso-link" data-piso="gehenna">
+            <img src="pisosimagenes/gehenna.jpeg" height="35">Gehenna
+          </a>, 
+          <a href="#" class="piso-link" data-piso="downpour">
+            <img src="pisosimagenes/Downpour.jpeg" height="35">Downpour
+          </a> / 
+          <a href="#" class="piso-link" data-piso="dross">
+            <img src="pisosimagenes/dross.jpeg" height="35">Dross
+          </a>, 
+          <a href="#" class="piso-link" data-piso="ashpit">
+            <img src="pisosimagenes/ashpit.jpeg" height="35">Ashpit
+          </a> / 
+          <a href="#" class="piso-link" data-piso="mines">
+            <img src="pisosimagenes/mines.jpeg" height="35">Mines
+          </a>, 
+          <a href="#" class="piso-link" data-piso="home">
+            <img src="pisosimagenes/home.jpeg" height="35">Home
+          </a>
+        </b>: Rutas alternativas (ruta "alt") que llevan a finales distintos y nuevos jefes.</li>
     </ul>
 
     <h2>Estructura típica de un piso:</h2>
@@ -132,7 +208,8 @@
     </ul>
         </div>  
         </div>
-          
+
+        <script src="pisos.js"></script>
     </body>
 
 </html>
