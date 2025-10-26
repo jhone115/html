@@ -6,26 +6,29 @@ async function cargarDatosPersonajes() {
         return personajesData;
     }
     
-    console.log(' Intentando cargar JSON...');
+    console.log('🔍 Intentando cargar JSON en GitHub Pages...');
     
     try {
-        const response = await fetch('personajes_data.json');
+        // Ruta ABSOLUTA para GitHub Pages
+        const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -1).join('/');
+        const jsonUrl = `${baseUrl}/personajes_data.json`;
+        
+        console.log('📡 URL del JSON:', jsonUrl);
+        
+        const response = await fetch(jsonUrl);
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
         }
         
         const data = await response.json();
-        console.log(' JSON cargado con éxito');
+        console.log('✅ JSON cargado en GitHub Pages');
         
-        // Tu JSON tiene estructura directa, usamos data directamente
         personajesData = data;
-        
-        console.log(' Personajes disponibles:', Object.keys(personajesData));
         return personajesData;
         
     } catch (error) {
-        console.error(' Error cargando JSON:', error);
+        console.error(' Error cargando JSON en GitHub Pages:', error);
         console.log(' Usando datos hardcodeados');
         return getDatosHardcodeados();
     }
