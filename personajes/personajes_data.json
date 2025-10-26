@@ -1,7 +1,7 @@
 {
   "isaac": {
     "nombre": "Isaac",
-    "imagen": "personajesimagenes/isaac.png",
+    "imagen": "/the-isaac-of-wiki/personajesimagenes/isaac.png",
     "vida": [
       {"tipo": "rojo", "cantidad": 3}
     ],
@@ -14,7 +14,7 @@
     "descripcioncorta": "El personaje inicial y más equilibrado.",
     "consumibles": [{"tipo": "bomba", "cantidad": 1}],
     "objetos": "collectibles_105_dice",
-    "descripcionlarga": "Isaac es el corazón y alma del juego, el niño inocente cuya trágica huida al sótano da inicio a toda la aventura. Como personaje de juego, es el estándar perfecto para cualquier jugador:<br> comienza con tres corazones rojos y estadísticas completamente equilibradas en daño, velocidad y alcance, sin ventajas ni desventajas inherentes. Es ideal para principiantes, ya que no tiene mecánicas complejas.Isaac empieza con tres contenedores de Corazón Rojo y una <img src='objetos/consumibles/bomba.png' width='20' alt='Bomba'>. Su verdadero potencial se despliega al desbloquear el <img src='objetos/objetosimg/collectibles_105_dice.png' width='20' alt='D6'> (tras derrotar a <img src='jefes/jefesimg/isaac boss.png' width='25' alt='Isaac Boss'> Isaac como <img src='personajesimagenes/blue baby.png' width='20' alt='Blue Baby'> ???), un objeto que le permite rerrodar los ítems de las salas de objeto. Esta capacidad transforma a Isaac de un simple recipiente vacío en el personaje más versátil y estratégico, capaz de moldear su suerte y crear construcciones poderosas a su antojo, reflejando su rol central en la narrativa."
+    "descripcionlarga": "Isaac es el corazón y alma del juego, el niño inocente cuya trágica huida al sótano da inicio a toda la aventura. Como personaje de juego, es el estándar perfecto para cualquier jugador:<br> comienza con tres corazones rojos y estadísticas completamente equilibradas en daño, velocidad y alcance, sin ventajas ni desventajas inherentes. Es ideal para principiantes, ya que no tiene mecánicas complejas.Isaac empieza con tres contenedores de Corazón Rojo y una <img src='/the-isaac-of-wiki/objetos/consumibles/bomba.png' width='20' alt='Bomba'>. Su verdadero potencial se despliega al desbloquear el <img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_105_dice.png' width='20' alt='D6'> (tras derrotar a <img src='/the-isaac-of-wiki/jefes/jefesimg/isaac%20boss.png' width='25' alt='Isaac Boss'> Isaac como <img src='/the-isaac-of-wiki/personajesimagenes/blue%20baby.png' width='20' alt='Blue Baby'> ???), un objeto que le permite rerrodar los ítems de las salas de objeto. Esta capacidad transforma a Isaac de un simple recipiente vacío en el personaje más versátil y estratégico, capaz de moldear su suerte y crear construcciones poderosas a su antojo, reflejando su rol central en la narrativa."
   },
   "tainted_isaac": {
     "nombre": "Tainted Isaac",
