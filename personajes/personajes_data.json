@@ -239,9 +239,9 @@
     "descripcioncorta": "La versión corrompida de cain.",
     "descripcionlarga": "Tainted Cain es el artesano metódico. No puede recoger objetos de las salas normales. En su lugar, debe recolectar 8 materiales que dejan los enemigos y usar su Bolsa de Fabricación<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_710_bagofcrafting.png' width='20' alt='Bag of Crafting'> para crear un objeto. Los objetos que fabrica dependen de la calidad y tipo de los materiales utilizados, siguiendo recetas fijas. Su juego se convierte en una búsqueda de planificación y recolección, donde el conocimiento de las recetas es poder. Es un personaje lento y deliberado que recompensa la paciencia y el conocimiento profundo de la mecánica del juego"
   },
-  "judas": {
-    "nombre": "judas",
-    "imagen": "personajesimagenes/judas.png",
+  "azazel": {
+    "nombre": "azazel",
+    "imagen": "personajesimagenes/azazel.png",
     "vida": [
       {"tipo": "rojo", "cantidad": 1}
     ],
@@ -256,21 +256,21 @@
     "objetos": "collectibles_34_thebookofbelial",
     "descripcionlarga": "Judas personifica la filosofía de \"alto riesgo, alta recompensa\". Es increíblemente frágil, comenzando con un solo corazón rojo, pero a cambio posee el multiplicador de daño más alto de los personajes base. Su poder se centra en el Libro de Belial<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_34_thebookofbelial.png' width='20' alt='Book of Belial'>, que al activarlo le otorga un enorme aumento de daño para la habitación actual, permitiéndole eliminar enemigos y jefes con una velocidad aterradora. Jugarlo es un ejercicio de precisión y agresividad controlada; un solo error puede ser fatal, pero una ejecución perfecta es recompensada con una de las partidas más rápidas y contundentes posibles."
   },
-  "tainted_judas": {
-    "nombre": "Tainted judas",
-    "imagen": "personajesimagenes/t judas.png",
+  "tainted_azazel": {
+    "nombre": "Tainted azazel",
+    "imagen": "personajesimagenes/t azazel.png",
     "vida": [
-      {"tipo": "negro", "cantidad": 2}
+      {"tipo": "negro", "cantidad": 3}
     ],
-    "daño": 3.50,
-    "lagrimas": 2.73,
+    "daño": 5.25,
+    "lagrimas": 0.91,
     "vellagrimas": 1.00,
-    "rango": 4.50,
-    "velocidad": 1.23,
+    "rango": 6.50,
+    "velocidad": 1.00,
     "suerte": 0,
-    "consumibles": [{"tipo": "penny", "cantidad": 3}],
-    "objetos": "collectibles_705_darkarts",
-    "descripcioncorta": "La versión corrompida de judas.",
-    "descripcionlarga": "Tainted Judas es el asesino espectral. Es frágil, pero su objeto Dark Arts<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_705_darkarts.png' width='20' alt='Dark Arts'> lo redefine por completo. Al activarlo, se convierte en una sombra invencible que se teletransporta a través de los enemigos, dañándolos y dejando un rastro de lágrimas espectrales. Al final del dash, realiza un poderoso ataque basado en el daño infligido. Su juego es un baile de alta movilidad, usando Dark Arts<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_705_darkarts.png' width='20' alt='Dark Arts'> para esquivar proyectiles, posicionarse perfectamente y ejecutar ráfagas de daño devastadoras, haciendo de la evasión proactiva su mejor defensa y ofensiva.<br> usar Dark Arts<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_705_darkarts.png' width='20' alt='Dark Arts'> para pasar sin recibir daño por una sala cursed<img src='/the-isaac-of-wiki/objetos/pools/cursed pool.png' width='20' alt='Cursed Room'> (simplemente la activas y te diriges a la puesta de la habitación). Esto también puede ser útil si tienes que pasar entre fuegos o pinchos."
-  }
+    "consumibles": [{"tipo": "", "cantidad": 0}],
+    "objetos": "collectibles_726_hemoptysis",
+    "descripcioncorta": "La versión corrompida de brimstone.",
+    "descripcionlarga": "Tainted Azazel es el octavo personaje tainted del juego, este personaje tiene un ataque similar a Brimstone<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_118_brimstone.png' width='20' alt='brimstone> pero con las características opuestas a Azazel<img src='personajesimagenes/azazel.png' width='20' alt='azazel'>, ya que tiene un ataque de mucho rango pero poco grosor. A diferencia de su versión normal, no puede volar pero tiene una segunda habilidad que es el poder “estornudar”, con el estornudo podrás hacer una ataque de corto alcance y marcarás a los enemigos con un símbolo, los enemigos marcados al dispararle con el ataque base tendrán un crítico haciéndoles más daño, si derrotas a un enemigo marcado este explotara y “contagiara” a los de su alrededor.Empieza con la carta de The Fool*El personaje no estornuda, lo que hace es escupir sangre por un trastorno pulmonar llamado hemoptisis, de ahí que uno de sus items desbloqueables sea Hemoptysis<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_726_hemoptysis.png' width='20' alt='hemptysis> derrotando a Delirium<img src='/the-isaac-of-wiki/jefes/jefesimg/delirium.png' width='25' alt='delirios'>*"
+}
 }
