@@ -243,15 +243,15 @@
     "nombre": "azazel",
     "imagen": "personajesimagenes/azazel.png",
     "vida": [
-      {"tipo": "rojo", "cantidad": 1}
+      {"tipo": "negro", "cantidad": 3}
     ],
-    "daño": 4.72,
-    "lagrimas": 2.73,
+    "daño": 5.25,
+    "lagrimas": 0.83,
     "vellagrimas": 1.00,
-    "rango": 6.50,
-    "velocidad": 1.00,
+    "rango": 4.50,
+    "velocidad": 1.25,
     "suerte": 0.00,
-    "descripcioncorta": "el cañon de cristal.",
+    "descripcioncorta": "rayo laser.",
     "consumibles": [{"tipo": "penny", "cantidad": 3}],
     "objetos": "collectibles_34_thebookofbelial",
     "descripcionlarga": "Judas personifica la filosofía de \"alto riesgo, alta recompensa\". Es increíblemente frágil, comenzando con un solo corazón rojo, pero a cambio posee el multiplicador de daño más alto de los personajes base. Su poder se centra en el Libro de Belial<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_34_thebookofbelial.png' width='20' alt='Book of Belial'>, que al activarlo le otorga un enorme aumento de daño para la habitación actual, permitiéndole eliminar enemigos y jefes con una velocidad aterradora. Jugarlo es un ejercicio de precisión y agresividad controlada; un solo error puede ser fatal, pero una ejecución perfecta es recompensada con una de las partidas más rápidas y contundentes posibles."
