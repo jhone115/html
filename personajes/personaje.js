@@ -70,7 +70,8 @@ async function initializePersonajePage() {
                 't cain': 'tainted_cain',
                 'judas': 'judas',
                 'tainted judas': 'tainted_judas',
-                't judas': 'tainted_judas'
+                't judas': 'tainted_judas',
+                'azazel': 'azazel'
             };
             
             const alternativeId = idVariations[personajeId];
