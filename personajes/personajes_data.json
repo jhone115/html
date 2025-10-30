@@ -246,16 +246,15 @@
       {"tipo": "negro", "cantidad": 3}
     ],
     "daño": 5.25,
-    "lagrimas": 0.83,
+    "lagrimas": 0.86,
     "vellagrimas": 1.00,
     "rango": 4.50,
     "velocidad": 1.25,
     "suerte": 0.00,
     "descripcioncorta": "rayo laser.",
-    "consumibles": [{"tipo": "penny", "cantidad": 3}],
-    "objetos": "collectibles_34_thebookofbelial",
-    "descripcionlarga": "Judas personifica la filosofía de \"alto riesgo, alta recompensa\". Es increíblemente frágil, comenzando con un solo corazón rojo, pero a cambio posee el multiplicador de daño más alto de los personajes base. Su poder se centra en el Libro de Belial<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_34_thebookofbelial.png' width='20' alt='Book of Belial'>, que al activarlo le otorga un enorme aumento de daño para la habitación actual, permitiéndole eliminar enemigos y jefes con una velocidad aterradora. Jugarlo es un ejercicio de precisión y agresividad controlada; un solo error puede ser fatal, pero una ejecución perfecta es recompensada con una de las partidas más rápidas y contundentes posibles."
-  },
+    "consumibles": [{"tipo": "", "cantidad": 0}],
+    "objetos": "collectibles_118_brimstone",
+    "descripcionlarga": "Azazel es el octavo personaje introducido en el juego, para desbloquearlo tienes que hacer tres pactos de demonio<img src='/the-isaac-of-wiki/objetos/pools/devil pool.png' width='20' alt='demonio'> en una misma partida, este personaje puede volar y no dispara lágrimas, si no que hace un ataque similar a Brimstone<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_118_brimstone.png' width='20' alt='brimstone'> pero con muy poco rango, empieza con una carta de The Fool que se recomienda usar para entrar y salir en una sala cursed<img src='/the-isaac-of-wiki/objetos/pools/cursed pool.png' width='20' alt='curseado'> sin recibir daño."},
   "tainted_azazel": {
     "nombre": "Tainted azazel",
     "imagen": "personajesimagenes/t azazel.png",
