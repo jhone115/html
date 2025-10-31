@@ -149,7 +149,7 @@
     "velocidad": 1.10,
     "suerte": 0.00,
     "descripcioncorta": "el ahogado.",
-    "consumibles": [{"tipo": "", "cantidad": 0}],
+    "consumibles": [],
     "objetos": "collectibles_36_thepoop",
     "descripcionlarga": "Blue Baby es el quinto personaje y el primer personaje secreto, se desbloquea derrotando 10 veces a <img src='/the-isaac-of-wiki/jefes/jefesimg/mom heart.png' width='20' alt='moms heart'>Moms Heart. Este personaje solo puede usar vida que no sea roja(<img src='/the-isaac-of-wiki/objetos/consumibles/corazon negro.png' width='20' alt='negro'>,<img src='/the-isaac-of-wiki/objetos/consumibles/corazon azul.png' width='20' alt='azul'> y <img src='/the-isaac-of-wiki/objetos/consumibles/corazon hueso.png' width='20' alt='hueso'>), así que es más difícil. Este personaje empieza con dos estadísticas un poco subidas a comparación de las base, también empieza con el objeto activo The Poop<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_36_thepoop.png' width='20' alt='la shit'>, una activa que se recarga con solo una carga y genera una caca. La mejor ventaja de este personaje es que los pactos de demonio siempre costaran menos corazones que de normal, asi que se recomienda ir a pactos de demonio<img src='/the-isaac-of-wiki/objetos/pools/devil pool.png' width='20' alt='demonio'> con el."
   },
@@ -170,74 +170,73 @@
     "descripcioncorta": "La versión corrompida de blue baby.",
     "descripcionlarga": "Tainted Blue Baby es el quinto personaje tainted del juego, tiene una mecánica de juego más caótica, te reemplaza las bombas por caca<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'> (no puedes utilizar ninguna bomba, solo podrás tener cacas<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'>) y sólo puedes llevar hasta 9, cada vez que recojas una caca<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'> te saldrá un dibujo debajo de la vida de distintos tipos (cada una con su efecto). Empiezas con 3 cacas<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'> y el item activo Hold<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_715_hold.png' width='20' alt='hold'> que te permitirá guardar una de las cacas para usarla más tarde. Los enemigos al morir tienen una posibilidad de soltar una caca<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'>, hay dos tipos de caca (pick up): la pequeña (te da 1 caca<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'>) y la grande (te da 3 cacas<img src='/the-isaac-of-wiki/objetos/consumibles/Poop.png' width='20' alt='caca'>)"
   },
-  "maggy": {
-    "nombre": "magdalene",
-    "imagen": "personajesimagenes/magdalene.png",
+  "eve": {
+    "nombre": "eve",
+    "imagen": "personajesimagenes/eve.png",
     "vida": [
-      {"tipo": "rojo", "cantidad": 4}
-    ],
-    "daño": 3.50,
-    "lagrimas": 2.73,
-    "vellagrimas": 1.00,
-    "rango": 6.50,
-    "velocidad": 0.85,
-    "suerte": 0.00,
-    "descripcioncorta": "el tanque lento.",
-    "consumibles": [{"tipo": "pill", "cantidad": 1}],
-    "objetos": "collectibles_45_yumheart",
-    "descripcionlarga": "Magdalena es el personaje designado para la supervivencia y la resistencia.Con un corazón rojo adicional y su objeto inicial, <img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_45_yumheart.png' width='20' alt='Yum Heart'> Yum Heart, que cura un corazón al usarlo, está preparada para aguantar más golpes que cualquier otro personaje inicial.<br> Esta durabilidad la convierte en la elección ideal para los principiantes que aún están aprendiendo a esquivar los patrones de ataques enemigos. sin embargo, esta ventaja tiene un costo: <br> su velocidad ligeramente reducida puede hacer que las habitaciones grandes y los jefes rápidos sean un desafío, enseñando al jugador que la mera capacidad de absorber daño no es suficiente sin una movilidad inteligente.<br> Al completar el challenge <u>April fool</u> saldra con una pastilla<img src='/the-isaac-of-wiki/objetos/consumibles/pill.png' width='20' alt='Pill'> que te cura completamente la vida"
-  },
-  "tainted_maggy": {
-    "nombre": "Tainted maggy",
-    "imagen": "personajesimagenes/t magdalene.png",
-    "vida": [
-      {"tipo": "rojo", "cantidad": 2},
-      {"tipo": "vacio", "cantidad": 2}
+      {"tipo": "rojo", "cantidad": 2}
     ],
     "daño": 2.62,
     "lagrimas": 2.73,
     "vellagrimas": 1.00,
     "rango": 6.50,
+    "velocidad": 1.23,
+    "suerte": 0.00,
+    "descripcioncorta": "la depresiva.",
+    "consumibles": [],
+    "objetos": "collectibles_126_razorblade",
+    "descripcionlarga": "Eve es el sexto personaje introducido en el juego, para desbloquearlo tienes que pasarte dos pisos sin coger corazones (no cuentan items que te dan vida), este personaje empieza con dos items Dead Bird y Whore of Babylon. Dead Bird<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_117_deadbird.png' width='20' alt='dead bird'> cada vez que te pegan invoca a un pájaro que hace daño por contacto y Whore of Babylon<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_122_whoreofbabylon.png' width='20' alt='whore of babylon'> con este personaje al tener un corazón rojo le sube el daño y la velocidad. También le puedes desbloquear el objeto Razor Blade<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_126_razorblade.png' width='20' alt='razor blade'> donando 439 monedas en el modo Greed<img src='/the-isaac-of-wiki/pisos/pisosimagenes/greed.jpeg' width='20' alt='greed'>.es recomendable ir a pactos de demonio con Eve para poder tener la habilidad de Whore of Babylon quitandote la vida roja y teniendo azul y negra."
+},
+  "tainted_eve": {
+    "nombre": "Tainted eve",
+    "imagen": "personajesimagenes/t eve.png",
+    "vida": [
+      {"tipo": "rojo", "cantidad": 2}
+    ],
+    "daño": 4.20,
+    "lagrimas": 1.20,
+    "vellagrimas": 1.00,
+    "rango": 6.50,
     "velocidad": 1.00,
     "suerte": 0,
     "consumibles": [],
-    "objetos": "collectibles_45_yumheart",
-    "descripcioncorta": "La versión corrompida de maggy.",
-    "descripcionlarga": "Tainted Magdalene es una sanguinaria que comercia vida por muerte. Su mecánica principal es que puede atacar con lágrimas pero también a melee, si te acercas mucho a un enemigo perderás un poco de vida a cambio de hacerle bastante daño. Ella convierte su inmensa reserva de salud en un arsenal ofensivo, creando un ciclo constante de autoconsumo y explosión de poder. Jugarla es un balance agresivo entre arriesgar tu preciada salud para inflingir daño cuerpo a cuerpo que no se recupera. <br>Si derrotas a un enemigo con las lágrimas tendrás una posibilidad de que te de medio corazón rojo y si lo derrotas a melee siempre te dara medio corazón rojo. su objeto inicial, <img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_45_yumheart.png' width='20' alt='Yum Heart'> Yum Heart"
-  },
-  "cain": {
-    "nombre": "cain",
-    "imagen": "personajesimagenes/cain.png",
+    "objetos": "collectibles_713_sumptorium",
+    "descripcioncorta": "La versión corrompida de eve.",
+    "descripcionlarga": "Tainted Eve es el sexto personaje tainted del juego, si mantienes durante dos segundos cualquier botón para disparar creará un coágulo de sangre y se quitará medio corazón, puedes repetir el efecto hasta que te quedes a medio corazón, los coágulos con el paso del tiempo irán perdiendo sus estadísticas.<br>El personaje empieza con el objeto Sumptorium<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_713_sumptorium.png' width='20' alt='sumptorium'> que transforma los coágulos creados en vida.<br>Este personaje tiene una transformación oculta, si te quedas a medio corazón y sin coágulos, activira un efecto como el del objeto Whore of Babylon<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_122_whoreofbabylon.png' width='20' alt='whore of babylon'>, aparte ya no disparara lágrimas si no que usara el item Sumptorium<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_713_sumptorium.png' width='20' alt='sumptorium'> como arma principal como el objeto Mom’s Knife<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_114_momsknife.png' width='20' alt='mom's knife'>, la transformación se quitará al curarse o tener un nuevo coágulo.<br>Puedes separarte de los coágulos usando la tecla Ctrl (Control), quedando los coágulos quietos y pudiendo moverte tú libremente<br>La creación de coágulos se hará a partir de los corazones y no por el orden que siguen (dorado<img src='/the-isaac-of-wiki/objetos/consumibles/corazon dorado.png' width='20' alt='dorado'> > eterno<img src='/the-isaac-of-wiki/objetos/consumibles/corazon eterno width='20' alt='eterno'> podrido<img src='/the-isaac-of-wiki/objetos/consumibles/corazon podrido.png' width='20' alt='podrido'> > rojo<img src='/the-isaac-of-wiki/objetos/consumibles/corazon rojo.png' width='20' alt='rojo'> > hueso<img src='/the-isaac-of-wiki/objetos/consumibles/corazon hueso.png' width='20' alt='hueso'> > negro<img src='/the-isaac-of-wiki/objetos/consumibles/corazon negro.png' width='20' alt='negro'> > alma<img src='/the-isaac-of-wiki/objetos/consumibles/corazon azul.png' width='20' alt='azul'>)"
+   },
+  "samson": {
+    "nombre": "samson",
+    "imagen": "personajesimagenes/samson.png",
     "vida": [
-      {"tipo": "rojo", "cantidad": 2}
+      {"tipo": "rojo", "cantidad": 3}
     ],
-    "daño": 4.20,
-    "lagrimas": 2.73,
-    "vellagrimas": 1.00,
-    "rango": 4.50,
-    "velocidad": 1.30,
-    "suerte": 1.00,
-    "descripcioncorta": "el tuerto con suerte.",
-    "consumibles": [{"tipo": "key", "cantidad": 1}],
-    "objetos": "",
-    "descripcionlarga": "Cain es el afortunado aventurero, un personaje que demuestra que la suerte puede ser una estadística tan tangible como el daño. Su Pata Derecha de la Suerte<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_46_luckyfoot.png' width='20' alt='Lucky Foot'> no solo aumenta hiddenmente su suerte, sino que garantiza recompensas positivas de las máquinas tragaperras y saca solo píldoras positivas o neutrales al tomarlas. <br>Combinado con umultiplicador de daño fijo y mayor velocidad, es un personaje ofensivo y consistente. La única peculiaridad es su ojo vendado, que hace que su lágrima izquierda se dispare desde una posición fija, un pequeño precio a pagar por sus notables ventajas en el campo de batalla.<br> también puedes desbloquear donando 68 monedas en <u><img src='/the-isaac-of-wiki/pisos/pisosimagenes/greed.jpeg' height='20' alt='Greed Mode'>Greed</u> el trinket Paper Clip<img src='/the-isaac-of-wiki/objetos/trinkets/trinket_019_paperclip.png' width='20' alt='Paper Clip'> que te permite abrir cofres dorados sin usar llaves."
-  },
-  "tainted_cain": {
-    "nombre": "Tainted cain",
-    "imagen": "personajesimagenes/t cain.png",
-    "vida": [
-      {"tipo": "rojo", "cantidad": 2}
-    ],
-    "daño": 4.20,
-    "lagrimas": 2.73,
-    "vellagrimas": 1.00,
-    "rango": 6.50,
-    "velocidad": 1.30,
+    "daño": 3.50,
+    "lagrimas": 2.50,
+    "vellagrimas": 1.31,
+    "rango": 5.50,
+    "velocidad": 1.10,
     "suerte": 0.00,
-    "consumibles": [{"tipo": "key", "cantidad": 1}],
-    "objetos": "collectibles_710_bagofcrafting",
-    "descripcioncorta": "La versión corrompida de cain.",
-    "descripcionlarga": "Tainted Cain es el artesano metódico. No puede recoger objetos de las salas normales. En su lugar, debe recolectar 8 materiales que dejan los enemigos y usar su Bolsa de Fabricación<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_710_bagofcrafting.png' width='20' alt='Bag of Crafting'> para crear un objeto. Los objetos que fabrica dependen de la calidad y tipo de los materiales utilizados, siguiendo recetas fijas. Su juego se convierte en una búsqueda de planificación y recolección, donde el conocimiento de las recetas es poder. Es un personaje lento y deliberado que recompensa la paciencia y el conocimiento profundo de la mecánica del juego"
+    "descripcioncorta": "el duro.",
+    "consumibles": [],
+    "objetos": "collectibles_157_bloodylust",
+    "descripcionlarga": "Samson es el séptimo personaje introducido en el juego, para desbloquearlo tienes que pasarte dos pisos sin recibir daño (no cuentan las salas cursed o las de pinchos o cosas por el estilo), este personaje empieza con Bloody Lust<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_157_bloodylust.png' width='20' alt='bloody lust'>, un item que al recibir daño te aumenta un poco el daño en ese piso, al irte del piso se reiniciará el daño. También le puedes desbloquear el trinket Child’s Heart<img src='/the-isaac-of-wiki/objetos/trinkets/trinket_034_childsheart.png' width='20' alt='child heart'> que se desbloquea haciendo el desafió Ultra Hard, que hace que aparezcan más corazones rojos que de normal."
+  },
+  "tainted_samson": {
+    "nombre": "Tainted samson",
+    "imagen": "personajesimagenes/t samson.png",
+    "vida": [
+      {"tipo": "rojo", "cantidad": 3}
+    ],
+    "daño": 3.50,
+    "lagrimas": 2.50,
+    "vellagrimas": 1.00,
+    "rango": 5.00,
+    "velocidad": 1.00,
+    "suerte": 0.00,
+    "consumibles": [],
+    "objetos": "collectibles_704_berserk",
+    "descripcioncorta": "La versión corrompida de samson.",
+    "descripcionlarga": "Tainted Samson es el séptimo personaje tainted del juego, este personaje tiene la característica de que al infligir o recibir daño se vuelve más rojo, al estar en su ultima fase de color rojo cambiara su aparencia a una de enfado con pelo, aparte, le subiran algunas estadisticas, cambiara su forma de atacar a una muy parecida a la de Forgotten.<br>Esta forma dura 5 segundos y se puede ver el tiempo con una circunferencia arriba de su cabeza, la duración de este efecto se puede aumentar derrotando a enemigos que te darán 1 segundo más. Mientras esté en esta forma (Berserk!<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_704_berserk.png' width='20' alt='berserk'>), puede quedarse sin vida y no morir hasta que no se le pase el efecto, si te has quedado sin vida pero la recuperas antes de perder el efecto no mueres.<br>El efecto tiene una mecánica oculta, si recibes mucho daño muy rápido puedes acumular los efectos de Berserk!, estos harán que no baje el temporizador de la circunferencia, si no que se mantiene cargado (esto lo he tenido que comprobar con el item Blood Rights). Si matas a muchos enemigos de golpe no pasara lo mismo, si no que solo te dejara al máximo el temporizador, pero no superara el limite que tiene."
   },
   "azazel": {
     "nombre": "azazel",
@@ -252,7 +251,7 @@
     "velocidad": 1.25,
     "suerte": 0.00,
     "descripcioncorta": "rayo laser.",
-    "consumibles": [{"tipo": "", "cantidad": 0}],
+    "consumibles": [{"tipo": "carta", "cantidad": 1}],
     "objetos": "collectibles_118_brimstone",
     "descripcionlarga": "Azazel es el octavo personaje introducido en el juego, para desbloquearlo tienes que hacer tres pactos de demonio<img src='/the-isaac-of-wiki/objetos/pools/devil pool.png' width='20' alt='demonio'> en una misma partida, este personaje puede volar y no dispara lágrimas, si no que hace un ataque similar a Brimstone<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_118_brimstone.png' width='20' alt='brimstone'> pero con muy poco rango, empieza con una carta de The Fool que se recomienda usar para entrar y salir en una sala cursed<img src='/the-isaac-of-wiki/objetos/pools/cursed pool.png' width='20' alt='curseado'> sin recibir daño."},
   "tainted_azazel": {
@@ -267,7 +266,7 @@
     "rango": 6.50,
     "velocidad": 1.00,
     "suerte": 0,
-    "consumibles": [{"tipo": "", "cantidad": 0}],
+    "consumibles": [{"tipo": "carta", "cantidad": 1}],
     "objetos": "collectibles_726_hemoptysis",
     "descripcioncorta": "La versión corrompida de brimstone.",
     "descripcionlarga": "Tainted Azazel es el octavo personaje tainted del juego, este personaje tiene un ataque similar a Brimstone<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_118_brimstone.png' width='20' alt='brimstone'>, pero con las características opuestas a Azazel<img src='personajesimagenes/azazel.png' width='20' alt='azazel'>, ya que tiene un ataque de mucho rango pero poco grosor.<br> A diferencia de su versión normal, no puede volar pero tiene una segunda habilidad que es el poder “estornudar”, con el estornudo podrás hacer una ataque de corto alcance y marcarás a los enemigos con un símbolo, los enemigos marcados al dispararle con el ataque base tendrán un crítico haciéndoles más daño, si derrotas a un enemigo marcado este explotara y “contagiara” a los de su alrededor. Empieza con la carta de The Fool <br>*El personaje no estornuda, lo que hace es escupir sangre por un trastorno pulmonar llamado hemoptisis, de ahí que uno de sus items desbloqueables sea Hemoptysis<img src='/the-isaac-of-wiki/objetos/objetosimg/collectibles_726_hemoptysis.png' width='20' alt='hemptysis'>, derrotando a Delirium<img src='/the-isaac-of-wiki/jefes/jefesimg/delirium.png' width='25' alt='delirios'>*"
